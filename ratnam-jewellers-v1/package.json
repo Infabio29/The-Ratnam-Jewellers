@@ -1,0 +1,11 @@
+{
+  "name": "ratnam-jewellers-v1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Ratnam Jewellers homepage. Plain HTML, CSS and JavaScript.",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "license": "ISC"
+}
