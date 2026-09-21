@@ -15,8 +15,10 @@
   document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu()});
 
   document.querySelectorAll('.creditLogo img').forEach(function(im){
-    function fb(){var s=document.createElement('span');s.className='credit-txt';s.textContent=im.alt;im.replaceWith(s)}
-    if(im.complete&&im.naturalWidth===0)fb();else im.addEventListener('error',fb,{once:true});
+    im.addEventListener('error',function(){
+      if(im.alt==='FabulousMedia')im.src='assets/img/fabulousmedia.svg';
+      else if(im.alt==='GoCommercially')im.src='assets/img/gocommercially.svg';
+    },{once:true});
   });
 
   var rail=document.querySelector('.rail'),prev=document.getElementById('prev'),next=document.getElementById('next');
