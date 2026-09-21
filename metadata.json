@@ -1,0 +1,6 @@
+{
+  "name": "The Ratnam Jewellers",
+  "description": "Certified gemstone and gold jewellery in Jaipur since 2007. IGI, GIA and HRD certified jewellery with live atelier demonstration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
